@@ -1,0 +1,8 @@
+The architecture of Hive is composed of the Hive Client, Hive Services, Processing & Resource Management and Distributed Storage. Hive Clients support all application written in languages such as C++, Java, Python and so forth. This allows Hive client application to be written in a language of their choice. 
+Hive Services perform queries through services like web interface and CLI. Processing framework and Resource Management uses MapReduce framework to execute such queries as stated before. Finally Distributed Storage uses underlying HDFS for their distributed storage. 
+
+
+The components of Hive Client include: Thrift Application, Hive Thrift Client, JDBC Application, Hive JDBC Driver, ODBC Application, and Hive ODBC Driver. 
+What makes up Hive Services are Hive Web Interface, Hive Server, Hive Driver, Metastore, CLi and Apache Derby DB.
+Processing & Resource Management is primarily made up of MapReduce v1, MapReduce v2, Tez and YARN.
+As mentioned before the main component of Distributed Storage is HDFS.
